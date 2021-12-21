@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy
+          tags: ${{ secrets.DOCKER_USERNAME }}/reverseproxy
